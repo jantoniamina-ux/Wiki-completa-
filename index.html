@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALMA DORADA | Wiki PRO Legends of Justice</title>
+
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#020617;color:#e5e7eb}
+header{background:linear-gradient(135deg,#020617,#1e293b);padding:50px;text-align:center}
+header h1{color:#facc15;font-size:42px;margin:0}
+header p{color:#cbd5f5}
+nav{position:sticky;top:0;background:#020617;padding:12px;text-align:center;z-index:10}
+nav a{color:#38bdf8;margin:0 10px;text-decoration:none;font-weight:bold}
+nav a:hover{color:#facc15}
+section{max-width:1300px;margin:auto;padding:40px}
+h2{color:#facc15;border-bottom:2px solid #1e293b;padding-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.card{background:#020617;border-radius:18px;padding:18px;border:2px solid #1e293b}
+.card h3{color:#38bdf8;margin:0 0 8px}
+.card p{color:#cbd5f5;font-size:14px;margin:0 0 8px}
+.tag{display:inline-block;background:#1e293b;padding:5px 10px;border-radius:12px;font-size:12px;color:#facc15;margin-right:5px}
+input{width:100%;max-width:400px;padding:12px;border-radius:10px;border:none;margin:20px auto;display:block}
+footer{text-align:center;padding:30px;background:#020617;color:#64748b}
+</style>
+
+<script>
+function buscar(){
+let i=document.getElementById("buscar").value.toLowerCase();
+let c=document.getElementsByClassName("card");
+for(let x=0;x<c.length;x++){
+c[x].style.display=c[x].innerText.toLowerCase().includes(i)?"block":"none";
+}}
+</script>
+</head>
+
+<body>
+
+<header>
+<h1>ALMA DORADA</h1>
+<p>Wiki PRO – Saint Seiya: Legends of Justice<br>
+Clan líder: Raúl</p>
+</header>
+
+<nav>
+<a href="#bronce">Bronce</a>
+<a href="#plata">Plata</a>
+<a href="#oro">Oro</a>
+<a href="#oro-despertado">Oro Despertado</a>
+<a href="#divina">Armadura Divina</a>
+<a href="#dioses">Dioses</a>
+<a href="#marinos">Marinos</a>
+<a href="#espectros">Espectros</a>
+<a href="#especiales">Especiales</a>
+<a href="#tierlist">Tier List</a>
+<a href="#guia">Guía de Builds</a>
+<a href="#nuevos">Para Nuevos</a>
+</nav>
+
+<input id="buscar" onkeyup="buscar()" placeholder="Buscar caballero...">
+
+<!-- BRONCE -->
+<section id="bronce">
+<h2>🟤 Caballeros de Bronce</h2>
+<div class="grid">
+<div class="card"><h3>Seiya</h3><p>Rol: DPS / Burst</p><span class="tag">Bronce</span></div>
+<div class="card"><h3>Seiya Despertado</h3><p>Rol: DPS / Burst</p><span class="tag">Bronce</span></div>
+<div class="card"><h3>Shiryu</h3><p>Rol: Tanque / Soporte</p><span class="tag">Bronce</span></div>
+<div class="card"><h3>Shiryu Despertado</h3><p>Rol: Tanque / Soporte</p><span class="tag">Bronce</span></div>
+<div class="card"><h3>Hyoga</h3><p>Rol: DPS / Control</p><span class="tag">Bronce</span></div>
+<div class="card"><h3>Shun</h3><p>Rol: Soporte / Control</p><span class="tag">Bronce</span></div>
+<div class="card"><h3>Ikki</h3><p>Rol: DPS / Burst</p><span class="tag">Bronce</span></div>
+<!-- Añadir todos los demás Bronce -->
+</div>
+</section>
+
+<!-- PLATA -->
+<section id="plata">
+<h2>⚪ Caballeros de Plata</h2>
+<div class="grid">
+<div class="card"><h3>Marin</h3><p>Rol: Soporte / Control</p><span class="tag">Plata</span></div>
+<div class="card"><h3>Shaina</h3><p>Rol: DPS</p><span class="tag">Plata</span></div>
+<div class="card"><h3>Misty</h3><p>Rol: DPS</p><span class="tag">Plata</span></div>
+<!-- Añadir todos los demás Plata -->
+</div>
+</section>
+
+<!-- ORO -->
+<section id="oro">
+<h2>🟡 Caballeros Dorados</h2>
+<div class="grid">
+<div class="card"><h3>Mu</h3><p>Rol: Soporte</p><span class="tag">Oro</span></div>
+<div class="card"><h3>Aldebarán</h3><p>Rol: Tanque</p><span class="tag">Oro</span></div>
+<div class="card"><h3>Saga</h3><p>Rol: DPS / Control</p><span class="tag">Oro</span></div>
+<div class="card"><h3>Aiolia</h3><p>Rol: DPS / Burst</p><span class="tag">Oro</span></div>
+<!-- Añadir todos los demás Dorados -->
+</div>
+</section>
+
+<!-- ORO DESPERTADO -->
+<section id="oro-despertado">
+<h2>🔥 Caballeros Dorados Despertados</h2>
+<div class="grid">
+<div class="card"><h3>Saga Despertado</h3><p>Rol: DPS / Control</p><span class="tag">Oro</span></div>
+<div class="card"><h3>Aiolia Despertado</h3><p>Rol: DPS / Burst</p><span class="tag">Oro</span></div>
+<!-- Más dorados despertados -->
+</div>
+</section>
+
+<!-- ARMADURA DIVINA -->
+<section id="divina">
+<h2>✨ Armaduras Divinas</h2>
+<div class="grid">
+<div class="card"><h3>Seiya Divino</h3><p>Rol: DPS / Burst</p><span class="tag">Divina</span></div>
+<div class="card"><h3>Ikki Divino</h3><p>Rol: DPS / Burst</p><span class="tag">Divina</span></div>
+<!-- Más divinos -->
+</div>
+</section>
+
+<!-- DIOSES -->
+<section id="dioses">
+<h2>🔱 Dioses</h2>
+<div class="grid">
+<div class="card"><h3>Athena</h3><p>Rol: Soporte / Heal</p><span class="tag">Dios</span></div>
+<div class="card"><h3>Hades</h3><p>Rol: DPS / Control</p><span class="tag">Dios</span></div>
+<div class="card"><h3>Poseidón</h3><p>Rol: DPS / Burst</p><span class="tag">Dios</span></div>
+<!-- Más dioses -->
+</div>
+</section>
+
+<!-- MARINOS -->
+<section id="marinos">
+<h2>🌊 Marinos</h2>
+<div class="grid">
+<div class="card"><h3>Kanon Marino</h3><p>Rol: DPS / Control</p><span class="tag">Marino</span></div>
+<!-- Más marinos -->
+</div>
+</section>
+
+<!-- ESPECTROS -->
+<section id="espectros">
+<h2>💀 Espectros</h2>
+<div class="grid">
+<div class="card"><h3>Radamanthys</h3><p>Rol: DPS / Burst</p><span class="tag">Espectro</span></div>
+<!-- Más espectros -->
+</div>
+</section>
+
+<!-- ESPECIALES / EVENTOS -->
+<section id="especiales">
+<h2>🌟 Especiales / Eventos</h2>
+<div class="grid">
+<div class="card"><h3>Shion Evento</h3><p>Rol: DPS / Soporte</p><span class="tag">Especial</span></div>
+<!-- Más especiales -->
+</div>
+</section>
+
+<!-- TIER LIST -->
+<section id="tierlist">
+<h2>🏆 Tier List / META</h2>
+<div class="grid">
+<div class="card"><h3>Seiya Despertado</h3><p>Tier: S / DPS</p><span class="tag">Meta</span></div>
+<div class="card"><h3>Shaka Despertado</h3><p>Tier: S / Control</p><span class="tag">Meta</span></div>
+<!-- Más tier -->
+</div>
+</section>
+
+<!-- GUÍA DE BUILDS -->
+<section id="guia">
+<h2>📜 Guía de Builds</h2>
+<div class="grid">
+<div class="card"><h3>Seiya Despertado</h3><p>Build recomendada: Ataque crítico + Velocidad</p></div>
+<div class="card"><h3>Shaka Despertado</h3><p>Build recomendada: Defensa + Control</p></div>
+<!-- Más builds -->
+</div>
+</section>
+
+<!-- PARA NUEVOS -->
+<section id="nuevos">
+<h2>👶 Guía para nuevos miembros del clan</h2>
+<div class="grid">
+<div class="card"><h3>Consejo 1</h3><p>Empieza con caballeros de Bronce Despertado.</p></div>
+<div class="card"><h3>Consejo 2</h3><p>Completa eventos diarios para maximizar tus recursos.</p></div>
+<!-- Más consejos -->
+</div>
+</section>
+
+<footer>
+ALMA DORADA © Wiki PRO Legends of Justice
+</footer>
+
+</body>
+</html>
